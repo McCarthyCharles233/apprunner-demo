@@ -27,4 +27,5 @@ jobs:
 
       - name: Run application
         run: |
+          cd apprunner-demo/src
           python app.py
