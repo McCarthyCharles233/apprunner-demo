@@ -28,4 +28,3 @@ jobs:
       - name: Run application
         run: |
           python3 app.py
-        working-directory: home/runner/work/apprunner-demo/apprunner-demo
