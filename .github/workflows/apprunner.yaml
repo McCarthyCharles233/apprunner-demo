@@ -25,7 +25,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run application
-        run: |
-          python3 app.py
-        working-directory: apprunner-demo/src
+      - name: echo
+        run:  pwd
