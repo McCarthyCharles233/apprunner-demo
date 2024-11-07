@@ -27,5 +27,5 @@ jobs:
 
       - name: Run application
         run: |
-          python app.py
+          python3 app.py
         working-directory: apprunner-demo/src
