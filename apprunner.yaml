@@ -8,6 +8,3 @@ build:
 
 run:
   command: python src/app.py
-
-network:
-  port: 8080
