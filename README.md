@@ -11,3 +11,4 @@ Below I explore both deployment options and also use Infrastructure as Code (Ter
 
 
 
+![arch-diagram](https://github.com/user-attachments/assets/65dce662-de2f-4186-9787-be51249905fb)
