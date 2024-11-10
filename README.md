@@ -9,6 +9,4 @@ Below I explore both deployment options and also use Infrastructure as Code (Ter
 
 # Architecture
 
-
-
-![arch-diagram](https://github.com/user-attachments/assets/65dce662-de2f-4186-9787-be51249905fb)
+![arch-diagram](https://github.com/user-attachments/assets/8e6cda40-0809-42c5-81c0-25799badb69d)
