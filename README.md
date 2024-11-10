@@ -14,8 +14,15 @@ Below I explore both deployment options and also use Infrastructure as Code (Ter
 
 # Source Code Deployment
 
+![Screenshot from 2024-11-07 16-03-07](https://github.com/user-attachments/assets/9aaae2a8-c7cd-48e0-a060-c6fefafeebc0)
+
+
 When deploying with source code, App Runner connects to a GitHub repository through a secure integration. You can use an `apprunner.yaml` configuration file within your repository to define custom build and run settings, simplifying deployment automation. Alternatively, you can manually input these build and run commands directly in the AWS console, offering more flexibility and control over your deployment process. This approach automates container builds from the source, making deployment quick and reducing operational overhead.
+
+![Screenshot from 2024-11-07 16-05-21](https://github.com/user-attachments/assets/34803e0a-2dbe-4441-80a7-27babee1ff7a)
 
 **Manual Deployments**: In manual deployment mode, the user decides when to push changes live, giving full control over releases. App Runner won't deploy updates until a manual trigger is initiated. This is beneficial for testing and ensuring code quality before updates are made public. Users can make changes, review them, and deploy only when ready, creating a controlled workflow ideal for critical updates or staged rollouts.
 
 **Automatic Deployments**: With automatic deployments, App Runner monitors the linked GitHub repository for changes and triggers deployments whenever new code is pushed. This setup leverages a built-in CI/CD pipeline that streamlines continuous delivery, ensuring that updates go live with minimal manual intervention. Developers benefit from faster feedback loops and reduced deployment time, which is perfect for agile development practices where rapid iteration and continuous improvement are essential.
+
+![Screenshot from 2024-11-07 16-03-51](https://github.com/user-attachments/assets/2da5ea6c-25b7-4f56-b4ec-1cc877208863)
