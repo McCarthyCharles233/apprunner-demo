@@ -27,3 +27,7 @@ When deploying with source code, App Runner connects to a GitHub repository thro
 
 ![Screenshot from 2024-11-10 23-26-04](https://github.com/user-attachments/assets/db78ea32-6018-4017-9c5d-985f1a39983b)
 
+
+**App Runner Event Logs**: AWS App Runner provides detailed event logs that track every stage of the deployment process, including build, deployment, and runtime events. These logs are essential for identifying and resolving issues as they offer real-time insights into what’s happening at each phase. Event logs help detect build failures, runtime errors, or configuration problems, making it easier to debug issues and ensure smoother deployments. By monitoring these logs, developers can quickly pinpoint and address errors, leading to more stable applications.
+
+**Application URL**: After a successful deployment, App Runner automatically assigns a secure, HTTPS-enabled URL to the application. This URL allows immediate access to the deployed service, facilitating quick testing, sharing, and user interaction. The URL simplifies hosting by abstracting the infrastructure, enabling faster time-to-market without the need to set up custom domain configurations initially.
