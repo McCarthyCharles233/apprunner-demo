@@ -9,5 +9,5 @@ Below I explore both deployment options and also use Infrastructure as Code (Ter
 
 # Architecture
 
-![Project architecture diagram](/home/charles-mccarthy/Terraform-Module-AppRunner/architecture/arch-diagram.png)
+
 
