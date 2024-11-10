@@ -25,4 +25,5 @@ When deploying with source code, App Runner connects to a GitHub repository thro
 
 **Automatic Deployments**: With automatic deployments, App Runner monitors the linked GitHub repository for changes and triggers deployments whenever new code is pushed. This setup leverages a built-in CI/CD pipeline that streamlines continuous delivery, ensuring that updates go live with minimal manual intervention. Developers benefit from faster feedback loops and reduced deployment time, which is perfect for agile development practices where rapid iteration and continuous improvement are essential.
 
-![Screenshot from 2024-11-07 16-03-51](https://github.com/user-attachments/assets/2da5ea6c-25b7-4f56-b4ec-1cc877208863)
+![Screenshot from 2024-11-10 23-26-04](https://github.com/user-attachments/assets/db78ea32-6018-4017-9c5d-985f1a39983b)
+
