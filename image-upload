@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+
+echo "building and pushing container image to ECR"
+
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 567940529223.dkr.ecr.us-east-1.amazonaws.com
+
+docker build -t apprunner .
+
+docker tag apprunner:latest 567940529223.dkr.ecr.us-east-1.amazonaws.com/apprunner:latest
+
+docker push 567940529223.dkr.ecr.us-east-1.amazonaws.com/apprunner:latest
