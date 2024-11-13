@@ -43,3 +43,10 @@ When deploying with source code, App Runner connects to a GitHub repository thro
 # Container Image Deployment
 
 AWS App Runner supports deploying applications from pre-built container images stored in Amazon Elastic Container Registry (ECR) or other compatible registries. This type of deployment provides flexibility by allowing developers to package their application, including dependencies, in a container image. Users can specify image details and runtime configurations directly in the App Runner console or through configuration files. Container image deployment ensures consistency across environments, making it easier to scale and maintain applications.
+
+![Screenshot from 2024-11-09 03-31-56](https://github.com/user-attachments/assets/7bae6566-2521-4c21-b122-8d092890dd14)
+![Screenshot from 2024-11-09 03-32-36](https://github.com/user-attachments/assets/d6f7a7ac-5629-4f4a-b8ec-8f9c5749217d)
+![Screenshot from 2024-11-09 03-34-00](https://github.com/user-attachments/assets/1700f6ef-6845-4d95-98b8-42a64d9afe85)
+![Screenshot from 2024-11-09 03-34-14](https://github.com/user-attachments/assets/b379e509-48f3-48bc-8fa7-7f8c4467bbfc)
+
+
