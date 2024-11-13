@@ -16,13 +16,21 @@ resource "aws_apprunner_service" "apprunner" {
       image_configuration {
         port = "8080"
       }
-      image_identifier      = ""
+      image_identifier      = "567940529223.dkr.ecr.us-east-1.amazonaws.com/apprunner:latest"
       image_repository_type = "ECR_PUBLIC"
     }
-    auto_deployments_enabled = true
+
+    authentication_configuration {
+      access_role_arn = "arn:aws:iam::567940529223:role/AppRunnerECR-Auth"
+    }
+
+    auto_deployments_enabled = false
   }
+
 
   tags = {
     Name = "apprunner-service"
   }
+
 }
+
